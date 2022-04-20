@@ -62,7 +62,7 @@ module.exports = {
     },
     
     resolve: {
-        extensions: ['.ts', '.js', '.vue'],
+        extensions: ['.ts', '.js'],
         roots: [__dirname],
         alias: {
         }
