@@ -1,15 +1,15 @@
 <template>
-    <mainarea></mainarea>
+    <textarea v-model="text"></textarea>
 </template>
 
 <script lang='ts'>
     import { defineComponent } from 'vue';
 
-    import MainArea from './mainarea.vue';
-
     export default defineComponent({
-        components: {
-            mainarea: MainArea
+        data(){
+            return {
+                text: ''
+            }
         }
     });
 </script>
